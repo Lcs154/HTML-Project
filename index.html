@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,600;1,300;1,500;1,600&display=swap" rel="stylesheet">
+    <!-- Fontes -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="form">
+        <div class="empresa">
+            <h3>Selecione uma plataforma</h3>
+                <div class="plataformas">
+                    <label for="steam" class="label">
+                        <input id="steam" type="radio" name="plat"  value="Steam" required>
+                        <div class="rd-btn">
+                            <img src="steam.png" width="150px" title="Steam">
+                            
+                        </div>
+                    </label>
+
+                    <label for="riot" class="label">
+                        <input id="riot" type="radio" name="plat" value="Riot">
+                        <div class="rd-btn">
+                            <img src="riot.png" width="150px" title="Riot">
+                            
+                        </div> 
+                    </label>
+                
+                    <label for="uplay" class="label">
+                        <input id="uplay" type="radio" name="plat" value="Ubisoft">
+                        <div class="rd-btn">
+                            <img src="Ubisoft.png" width="150px" title="Ubisoft Play">     
+                        </div>
+                    </label>
+                </div>
+        </div>
+        
+        <div class="jogos">
+            <h3>Selecione um Jogo</h3>
+            <div class="games">
+                <label for="CS2" class="label">
+                    <input id="CS2" type="radio" name="jogo" value="CS2" required >
+                    <div class="rd-btn-cs2" title="Counter Strike 2">
+                        <img src="cs.png" width="200px">
+                    </div>
+                </label>
+            
+                <label for="Val" class="label">
+                    <input id="Val" type="radio" name="jogo" value="Val" >
+                    <div class="rd-btn-val" title="Valorant">
+                        <img src="valorant.png" width="200px">
+                    </div>
+                </label>
+
+                <label for="lol" class="label">
+                <input id="lol" type="radio" name="jogo" value="lol" >
+                    <div class="rd-btn-lol" title="League of Legends">
+                        <img src="lol.png" width="200px">
+                    </div>
+                </label>
+
+            
+                <label for="r6" class="label">
+                    <input id="r6" type="radio" name="jogo" value="R6" >
+                    <div class="rd-btn-r6" title="Rainbow Six Siege">
+                        <img src="r6.png" width="200px">
+                    </div>       
+                </label>
+
+                <label for="cross" class="label">
+                    <input id="cross" type="radio" name="jogo" value="Crossfire" >
+                    <div class="rd-btn-cf" title="Crossfire">
+                        <img src="cf.png" width="150px">
+                    </div>
+                    
+                </label> 
+            </div>
+        </div>
+        <div class="credenciais">
+            <h3>Credenciais</h3>
+            <label for="email"><b>Email:</b></label>
+            <input type="email" name="email" id="email" autocomplete="off" required>
+            <br><br>
+            <label for="senha"><b>Senha:</b></label>
+            <input type="password" name"senha" id="senha" autocomplete="off" required>
+            <br><br>
+            <label for="user"><b>Nome de Usuário:</b></label>
+            <input type="text" name"userName" id="userName" autocomplete="off" required>
+            <br><br>
+            <label><b>Ranking atual:</b></label>
+            <input type="text" name="atual" id="atual" autocomplete="off" required>
+            <br><br>
+            <label><b>Ranking desejado:</b></label>
+            <input type="text" name="desejado" id="desejado" autocomplete="off" required>
+        </div>
+        <div class="send">
+            <button type="submit"><b>enviar</b></button>
+        </div>
+        
+    </form>
+</body>
+</html>
