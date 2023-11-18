@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    background: black;
+    color: white;
+}
+.form input{
+    border: 2px;
+    border-color: aqua;
+}
+.form h3{
+    font-size: x-large;
+    padding-bottom: 5%;
+    color: rgb(214, 182, 0);
+}
+
+.empresa{
+    margin-top: 30px;
+    border-radius: 20px;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(46, 46, 46, 0.308);
+    padding: 30px;
+    margin-bottom: 40px;
+    
+}
+.plataformas{
+    display: flex;
+    justify-content: space-around;
+}
+
+.jogos{
+    border-radius: 20px;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(46, 46, 46, 0.308);
+    padding: 30px;
+    margin-bottom: 40px;
+}
+.games{
+    display: flex;
+    justify-content: space-around;
+}
+    
+
+.label{
+    font-size: 12px;
+}
+.label > input{
+    display: none;
+}
+.label input:checked + .rd-btn{
+    background-color: rgb(71, 71, 71);
+    
+}
+.rd-btn{
+    position: relative;
+    border-radius: 10px;
+    width: 170px;
+    height: 170px;
+    padding-top: 10px;
+}
+
+.label input:checked + .rd-btn-cs2{
+    background-color: rgb(71, 71, 71);
+    
+}
+.rd-btn-cs2{
+    border-radius: 10px;
+    width: 220px;
+    height: 170px;
+    padding-top: 10px;
+}
+
+.label input:checked + .rd-btn-val{
+    background-color: rgb(71, 71, 71);
+    
+}
+.rd-btn-val{
+    border-radius: 10px;
+    width: 220px;
+    height: 170px;
+    padding-top: 10px;
+}
+
+.label input:checked + .rd-btn-lol{
+    background-color: rgb(71, 71, 71);
+    
+}
+.rd-btn-lol{
+    border-radius: 10px;
+    width: 220px;
+    height: 170px;
+    padding-top: 10px;
+}
+
+.label input:checked + .rd-btn-r6{
+    background-color: rgb(71, 71, 71);
+    
+}
+.rd-btn-r6{
+    border-radius: 10px;
+    width: 220px;
+    height: 170px;
+    padding-top: 10px;
+}
+
+.label input:checked + .rd-btn-cf{
+    background-color: rgb(71, 71, 71);
+    
+}
+.rd-btn-cf{
+    border-radius: 10px;
+    width: 220px;
+    height: 170px;
+    padding-top: 10px;
+}
+
+.credenciais{
+    border-radius: 20px;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    color: white;
+    background-color: rgba(46, 46, 46, 0.308);
+    padding: 30px;
+}
+.credenciais h3{
+    text-align: center;
+    justify-content: center;
+}
+.credenciais input, label {
+    font-size: x-large;
+    color: white;
+}
+.credenciais #email, #senha, #userName, #atual, #desejado {
+    border-radius: 5px;
+    background-color: rgba(240, 248, 255, 0.11);
+    width: 100%;
+}
+
+.send{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.send button{
+    cursor: pointer;
+    font-size: 23px;
+    color: black;
+    border-radius: 20px;
+    padding: 5px 20px 5px 20px;
+    background-color: rgb(255, 0, 55);
+    border: none;
+}
+.send button:hover{
+    background-color: rgb(179, 2, 40);   
+}
